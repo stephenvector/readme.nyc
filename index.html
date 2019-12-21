@@ -3,7 +3,12 @@ layout: default
 ---
 
 {% for doc in site.docs %}
-  <h2>{{ doc.title }}</h2>
+  <h2>
+    <a href="{{ doc.url }}">
+     {{ doc.title }}
+    </a>
+  </h2>
 {% endfor %}
 
-:)
+
+&#128008;
